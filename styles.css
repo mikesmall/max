@@ -1,0 +1,32 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner {
+  width: 90%;
+  max-width: 1000px;
+}
+
+
+/* Mobile phones */
+@media only screen
+  and (max-device-width: 720px) {
+    .banner {
+      width: 100%;
+    }
+
+  }
+
+
+/* Tablets */
+@media only screen
+  and (min-device-width: 721px)
+  and (max-device-width: 1024px) {
+
+  }
