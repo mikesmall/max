@@ -46,9 +46,6 @@ h1 {
       font-size: 3em;
       margin: 0 16% 0 16%;
     }
-    .song {
-      width: 90%;
-    }
     .song iframe {
 
     }
@@ -57,6 +54,10 @@ h1 {
     }
     .song, .instagram {
       margin-top: 40px;
+    }
+    .song {
+      width: 90%;
+      margin-bottom: 40px;
     }
   }
 
