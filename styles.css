@@ -35,7 +35,19 @@ h1 {
   font-size: 1.5em;
   margin: 0;
 }
-
+p {
+  font-style: italic;
+  font-size: 1.1em;
+}
+a {
+  font-style: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.shows {
+  display: inline-block;
+  text-align: left;
+}
 
 /* Mobile phones */
 @media only screen
