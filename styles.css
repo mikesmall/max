@@ -23,9 +23,6 @@ body {
 .instagram img {
   width: 60px;
 }
-.instagram img:hover {
-  opacity: 0.5;
-}
 .song, .instagram {
   margin-top: 40px;
 }
@@ -43,6 +40,9 @@ a {
   font-style: inherit;
   color: inherit;
   text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
 }
 .shows {
   display: inline-block;
