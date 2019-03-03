@@ -43,24 +43,25 @@ a:hover {
 }
 
 /* Mobile phones */
-@media only screen
-  and (max-width: 720px) {
-    .container {
-      width: 95%;
-    }
-    .banner {
-      width: 100%;
-    }
-    h1 {
-      margin: 0 16%;
-    }
-    p {
-      font-size: 1.4em;
-    }
-    .social {
-      margin-top: 40px;
-    }
-    .social img {
-      width: 144px;
-    }
+@media screen and (max-width: 720px) {
+  .container {
+    width: 95%;
   }
+  .banner {
+    width: 100%;
+  }
+  h1 {
+    margin: 0 16%;
+    font-size: 1.3em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .social {
+    margin-top: 40px;
+  }
+  .social img {
+    width: 120px;
+    padding: 0 16px;
+  }
+}
