@@ -16,7 +16,7 @@ body {
 }
 .social img {
   width: 60px;
-  padding: 0 10px;
+  margin: 0 16px;
 }
 h1 {
   font-style: italic;
@@ -57,11 +57,7 @@ a:hover {
   p {
     font-size: 1em;
   }
-  .social {
-    margin-top: 40px;
-  }
   .social img {
-    width: 100px;
-    padding: 0 16px;
+    width: 80px;
   }
 }
