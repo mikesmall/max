@@ -43,7 +43,7 @@ a:hover {
 }
 
 /* Mobile phones */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) and (max-device-width: 720px) {
   .container {
     width: 95%;
   }
