@@ -42,8 +42,8 @@ a:hover {
   margin: 40px 10px;
 }
 
-/* Mobile phones */
-@media screen and (max-width: 720px) and (max-device-width: 720px) {
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
   .container {
     width: 95%;
   }
@@ -61,7 +61,7 @@ a:hover {
     margin-top: 40px;
   }
   .social img {
-    width: 120px;
+    width: 100px;
     padding: 0 16px;
   }
 }
