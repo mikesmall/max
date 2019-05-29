@@ -9,24 +9,25 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+.poster {
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 20px;
+}
 .banner {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   margin-top: 10px;
-}
-.social img {
-  width: 60px;
-  margin: 0 16px;
 }
 h1 {
   font-style: italic;
   font-weight: 400;
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin: 0;
 }
 p {
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 a {
   font-style: inherit;
@@ -39,7 +40,17 @@ a:hover {
 .shows {
   display: inline-block;
   text-align: left;
-  margin: 40px 10px;
+  margin: 50px 10px;
+}
+.shows img {
+  width: ___;
+}
+.social {
+  margin-bottom: 40px; 
+}
+.social img {
+  width: 60px;
+  margin: 0 16px;
 }
 
 /* Mobile devices */
