@@ -28,6 +28,7 @@ h1 {
   font-weight: 400;
   font-size: 1.8em;
   margin: 0;
+  margin-bottom: 30px;
 }
 p {
   font-style: italic;
@@ -39,12 +40,12 @@ a {
   text-decoration: none;
 }
 a:hover {
-  opacity: 0.5;
+  opacity: 0.25;
 }
 .shows {
   display: inline-block;
   text-align: left;
-  margin: 50px 10px;
+  margin: 0 10px;
 }
 .shows img {
   width: ___;
